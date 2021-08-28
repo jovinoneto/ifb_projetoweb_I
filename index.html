@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Desenvolvido Web - Projeto</title>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta name="author" content="Liliene Riveiro & Jovino Neto">
+	<link rel="stylesheet" type="text/css" href="css/stilo.css">
+</head>
+
+<body>
+
+	<section class="section_apresentacao">
+		<div id="alunos">
+			<h1>Desenvolvido por:</h1>
+			<div id="aluno1"></div>
+			<p> Liliene Ribeiro - Mat: 191010010011</p>
+			<div id="aluno2"></div>
+			<p> Jovino Neto - Mat: 192010010026</p>
+		</div>
+		<div id="controle">
+			<button id="btniniciar" onclick="iniciar()"> Iniciar </button>
+		</div>
+	</section>
+
+	<section class="section_questoes">
+		<div id="questoes">
+			<div id="resultado">
+			</div>
+			<div id="perguntas">
+			</div>
+			<div id="alternativas">
+			</div>
+		</div>
+		<div id="controle">
+			<button id="btnconfirmar" onclick="confirmar()"> Confirmar </button>
+			<button id="btnavancar" onclick="avancar()"> Avançar </button>
+			<button id="btnreiniciar" onclick="reiniciar()"> Reiniciar </button>
+			<button id="btnnovo" onclick="reiniciar()"> Novo </button>
+			<button id="btnsair"> Sair </button>
+
+		</div>
+	</section>
+
+
+</body>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/js.js"></script>
+
+</html>

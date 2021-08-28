@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+body {
+    background: #f3f3f3;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.section_questoes, .section_apresentacao {
+    width: 50%;
+    margin: 10em auto;
+    box-shadow: 4px 5px 3px #909090;
+    height: 190px;
+    position: relative;
+}
+.section_questoes #controle, .section_apresentacao #controle  {
+    background: #9e9a9a;
+    height: 60px;
+    display: flex;
+}
+.section_questoes #questoes, .section_apresentacao #alunos {
+    background: #e6e6e6;
+}
+button {
+    display: none;
+    padding: 4px;
+    margin: 10px 20px;
+    width: 10em;
+    height: 3em;
+}
+.section_questoes #perguntas {
+    height: 90px;
+}
+.section_apresentacao #alunos {
+    height: 130px;
+}
+#perguntas p {
+    color: greenyellow;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+#alunos h1{
+    margin: 0;
+    text-align: center;
+    background: #8ace90;
+    padding: 4px;
+}
+#alunos p {
+    padding: 0 30px;
+}
+.section_questoes #alternativas {
+    height: 20px;
+    background: #8ace90;
+    margin: 0;
+    padding: 10px 10px;
+ }
+ .section_questoes #resposta { 
+    display: flex;
+    float: right;
+    padding-right: 13em;
+    padding: 0.1rem 1rem;
+    border-radius: 10px;
+    background: #f3f3f3;
+ }
+ #perguntas{
+     background-image: url(../img/interrogacao.jpg);
+     width: 100%;
+     height: 100%;
+     opacity: 1;
+ }
+    
+ 
+    
+
+ 
+
+
+
